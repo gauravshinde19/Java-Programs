@@ -61,12 +61,9 @@ public int Arr[][];
 
         for(i = 0; i < iRow; i++)
         {
-            for(j = 0; j < iCol; j++)
-            {
-                if (i == j)
-                {
-                    iSum = iSum + Arr[i][j];
-                }
+            for(j = i; ((j < iCol) && (i == j)); j++)
+            {    
+                iSum = iSum + Arr[i][j];
             }
         }
         
