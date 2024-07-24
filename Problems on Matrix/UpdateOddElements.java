@@ -64,7 +64,7 @@ public int Arr[][];
     }
 }
 
-class asd
+class UpdateOddElements
 {
     public static void main(String Arg[])
     {
