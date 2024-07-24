@@ -1,4 +1,4 @@
-// Program to accept numbers from user and display Matrix
+// Program to accept number of rows and columns from user accept that much elements from user and display Matrix
 
 import java.util.*;
 
