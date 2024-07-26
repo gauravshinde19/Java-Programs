@@ -1,3 +1,5 @@
+// Program to accept string from the user and count all the words from the given string
+
 import java.util.*;
 
 class CountWords
