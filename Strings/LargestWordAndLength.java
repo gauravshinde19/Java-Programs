@@ -1,18 +1,13 @@
 /*
-  Program to accept string from the user and find the largest word and its length
+    Program to accept string from the user and find the largest word and its length
 */
 
 import java.util.*;
 
-class LargestWordAndLength
+class Strings
 {
-    public static void main(String Arg[])
+    public static void LargestWordAndLength(String str)
     {
-        Scanner sobj = new Scanner(System.in);
-
-        System.out.println("Enter string : ");
-        String str = sobj.nextLine();
-
         str = str.trim();
         
         str = str.replaceAll("\\s+"," ");
@@ -32,7 +27,22 @@ class LargestWordAndLength
             }
         }
 
-        System.out.println("Largest word is : "+MaxStr);
-        System.out.println("Length of largest word is : "+iMax);
+        System.out.println("Largest word is : " + MaxStr);
+        System.out.println("Length of largest word is : " + iMax);
+    }
+}
+
+class LargestWordAndLength
+{
+    public static void main(String Arg[])
+    {
+        Scanner sobj = new Scanner(System.in);
+
+        System.out.println("Enter the string : ");
+        String str = sobj.nextLine();
+
+        Strings.LargestWordAndLength(str);
+
+        sobj.close();
     }
 }
