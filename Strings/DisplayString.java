@@ -12,7 +12,7 @@ class Strings
     }
 }
 
-class asd
+class DisplayString
 {
     public static void main(String Arg[])
     {
