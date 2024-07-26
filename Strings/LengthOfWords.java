@@ -1,3 +1,7 @@
+/*
+    Program to accept string from the user and count the length of each word from the string
+*/
+
 import java.util.*;
 
 class LengthOfWords
