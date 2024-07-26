@@ -1,3 +1,7 @@
+/*
+    Program to accept string from the user and find the length of largest word from that string
+*/
+
 import java.util.*;
 
 class LengthOfLargestWord
