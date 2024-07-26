@@ -4,15 +4,10 @@
 
 import java.util.*;
 
-class LengthOfLargestWord
+class Strings
 {
-    public static void main(String Arg[])
+    public static int LengthOfLargestWord(String str)
     {
-        Scanner sobj = new Scanner(System.in);
-
-        System.out.println("Enter string : ");
-        String str = sobj.nextLine();
-
         str = str.trim();
         
         str = str.replaceAll("\\s+"," ");
@@ -30,6 +25,24 @@ class LengthOfLargestWord
             }
         }
 
-        System.out.println("Length of largest word is : " + iMax);
+        return iMax;
+    }
+}
+
+class LengthOfLargestWord
+{
+    public static void main(String Arg[])
+    {
+        Scanner sobj = new Scanner(System.in);
+
+        System.out.println("Enter the string : ");
+        String str = sobj.nextLine();
+
+        int iRet = 0;
+
+        iRet = Strings.LengthOfLargestWord(str);
+        System.out.println("Length of largest word : " + iRet);
+
+        sobj.close();
     }
 }
