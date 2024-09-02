@@ -28,6 +28,10 @@ class DisplayPrime
             {
                 System.out.println(i);
             }
+            if (i >= 3) // For better time comlexity
+            {
+                i++;
+            }
         }
     }
     public static void main(String Arg[])
