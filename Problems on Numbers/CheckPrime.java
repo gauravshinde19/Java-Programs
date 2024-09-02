@@ -4,9 +4,9 @@
 
 import java.util.*;
 
-class PrimeOrNot
+class CheckPrime
 {
-    public static boolean CheckPrime(int No)
+    public static boolean CheckPrimeNumber(int No)
     {
         int i = 0;
 
@@ -29,7 +29,7 @@ class PrimeOrNot
         System.out.println("Enter the number which you want to check:");
         int iNo = sobj.nextInt();
 
-        bValue = CheckPrime(iNo);
+        bValue = CheckPrimeNumber(iNo);
 
         if (bValue == true)
         {
